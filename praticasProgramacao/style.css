@@ -1,0 +1,45 @@
+h1, h2{
+    color: red;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+p{
+            
+    text-align: justify;
+}
+
+header{
+    background-color: #ccc;
+}
+
+main{ 
+    margin: auto 20%;
+
+}
+
+.destaque{
+    background-color: brown;
+    color: azure;
+    padding: 20px ;
+    margin-bottom: 20px;
+}
+
+#img-logo{
+    width: 100px;
+}
+
+nav li{
+    display: inline;
+    margin-left: 20px;
+    color: brown;
+    font-weight: bold;
+    border: 2px solid brown;
+    padding: 5px;
+}
+nav{
+    float: right;
+}
