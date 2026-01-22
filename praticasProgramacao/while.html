@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While</title>
+    <script>
+
+        let contador = 1;
+        const qtd = prompt('Quantas notas?');
+        let soma = 0;
+        let nota = 0;
+        let media = 0;
+
+        while(contador <= qtd){
+            nota = parseInt(prompt("Digite a nota"));
+            soma += nota;
+            contador++;
+        }
+        media = soma / qtd;
+        console.log(soma);
+        console.log("A média é: "+ media);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
